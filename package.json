@@ -1,0 +1,31 @@
+{
+  "name": "similar-question-finder-root",
+  "version": "1.0.0",
+  "description": "Similar Question Finder with Auto-Tagging - Consolidated",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:frontend": "vite frontend",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "build": "vite build frontend",
+    "preview": "vite preview frontend"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "lucide-react": "^0.379.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
+  }
+}
+
